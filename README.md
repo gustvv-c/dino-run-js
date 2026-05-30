@@ -1,2 +1,19 @@
-# dino-run-js
-Projeto desenvolvido em JavaScript, HTML e CSS com foco em lógica de programação, manipulação de canvas e desenvolvimento de jogos web. O projeto inclui sistema de colisão, movimentação, pontuação e interface interativa.
+# 🦖 Dino Run JS
+
+Jogo 2D desenvolvido em HTML, CSS e JavaScript como projeto acadêmico para aplicação de conceitos de lógica de programação, Canvas API e desenvolvimento web.
+
+## Tecnologias
+- HTML5
+- CSS3
+- JavaScript
+
+## Funcionalidades
+- Sistema de colisão
+- Física de pulo
+- Pontuação
+- Menu inicial
+- Tela de instruções
+- Créditos
+
+## Demonstração
+[Link do GitHub Pages]
