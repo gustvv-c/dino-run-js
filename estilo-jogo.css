@@ -1,0 +1,186 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Press Start 2P", monospace;
+  background-color: #cce2cb;
+  background-image: url("./assets/bg-lobby.png");;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  color: #2c2c2c;
+  text-align: center;
+  padding: 0;
+}
+
+/* Background comum para as páginas */
+body.bg-padrao {
+  background-image: url("./assets/bg-padrao.png");
+}
+
+/* Background específico do lobby */
+body.bg-lobby {
+  background-image: url("./assets/bg-lobby.png");
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+  color: #2c2c2c;
+  text-shadow: 2px 2px 0 #d7a8a8, 4px 4px 0 #a84f4f;
+  animation: pulse 2s infinite ease-in-out;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+
+p {
+  font-size: 30px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.botoes {
+  display: flex;
+  font-family: "Press Start 2P", monospace;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+.botao-voltar {
+  text-align: center;
+  font-family: "Press Start 2P", monospace;
+  margin-top: 60px;
+  margin-bottom: 40px; 
+}
+
+.botao-voltar button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Press Start 2P", monospace;
+  background-color: #751010;
+  border: 2px solid #5c1717;
+  border-radius: 6px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #410808;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.botao-voltar button:hover {
+  background-color: #8b6060;
+  box-shadow: 2px 2px 0 #411515;
+  transform: scale(1.1);
+}
+
+/* botões principais */
+button {
+  padding: 20px 30px;
+  font-size: 15px;
+  font-family: "Press Start 2P", monospace;
+  border: 2px solid #5c1717;
+  border-radius: 6px;
+  background-color: #751010;
+  color: #000000;
+  cursor: pointer;
+  width: 300px;
+  box-shadow: 3px 3px 0 #5c2727;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #8b6060;
+  box-shadow: 2px 2px 0 #411515;
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  button {
+    width: 80%;
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+.imagens-creditos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.imagens-creditos img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.imagens-creditos img:hover {
+  transform: scale(1.07) rotate(-1.5deg);
+}
+
+.imagens-espaco {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.imagens-espaco img {
+  width: 400px;
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.imagens-espaco img:hover {
+  transform: scale(1.07) rotate(-1.5deg);
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0 -2px 8px rgb(0, 0, 0);
+  z-index: 100;
+}
+
+footer p {
+  margin: 0;
+  text-shadow: 1px 1px #ffffff;
+  background: none;
+  font-size: 12px;
+}
