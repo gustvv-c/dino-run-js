@@ -58,15 +58,6 @@ dino-run-js/
 ## 🎯 Objetivo Acadêmico
 - Este projeto foi desenvolvido como atividade acadêmica com foco na aplicação prática de conceitos estudados durante o curso, buscando consolidar conhecimentos em desenvolvimento web e lógica de programação.
 
-## 🔮 Melhorias Futuras
-- Sistema de ranking
-- Novos obstáculos
-- Efeitos sonoros
-- Música de fundo
-- Modo difícil
-- Compatibilidade mobile
-- Sistema de recordes
-
 ## 👨‍💻 Autor
 
 **Gustavo S. Cruz**
